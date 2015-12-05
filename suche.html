@@ -1,7 +1,9 @@
                                  <!DOCTYPE html>
+<html lang="de">
 <html>
          <head>
-                 <link type="text/css" rel="stylesheet" href="bootstrap.css"/>
+                 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+                 <link type="text/css" rel="stylesheet" href="additionalstyle.css"/>
                  <title>Suche</title>
          </head>
          <body>
@@ -19,23 +21,23 @@
                  <div class="jumbotron">
                   <h1>Wikipediasuche</h1>
 
-                 <a href="http://de.wikipedia.org" target="_blank">
+                 <!--<a href="http://de.wikipedia.org" target="_blank">
                  <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png"
-                 border="0"  width="240" height="60" /></a>
+                 border="0"  width="240" height="60" /></a>-->
                  <br /><br />
                  <form name="search" method="post"
-                 action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank">
+                 action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank"  >
                  <div>
-                 <input type="text" name="search" size="30" />
-                 <br />
-                 <input type="submit" name="go" value="Artikelsuche" />
-                 <input type="submit" name="fulltext" value="Volltextsuche" />
+                 <label accesskey="es"> <input type="text" name="search" size="30" id="es"/>Text hier eingeben</label>
+                 <br/>
+                 <input type="submit" name="go" value="Artikelsuche" alt="Artikelsuche" />
+                 <input type="submit" name="fulltext" value="Volltextsuche" alt="Volltextsuche"/>
                  </div>
                  </form>
                  <br>
                  <br>
 
-                <!--WAI-Logo will be connectet with the WAVE-Tool as soon as the Page is in place-->
+
                 <a href="http://wave.webaim.org/report#/https://ibsha1homepagejntl.cloudcontrolled.com/suche.html"
       title="Explanation of Level Triple-A Conformance">
   <img height="32" width="88"

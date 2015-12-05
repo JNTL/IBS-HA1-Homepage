@@ -1,0 +1,14 @@
+html {
+   background-color: #C0C0C0;
+}
+body {
+  margin: 15px;
+
+}
+h2{
+     font-weight: bold;
+    font-variant: small-caps;
+}
+h3{
+    text-decoration: underline;
+}
